@@ -1,0 +1,9 @@
+
+#spark
+spark-submit --master local --class zxm.spark.demo.WorldCount spark-test-1.0-spark1.3.0.jar
+
+#spark-streaming
+spark-submit --master local --class zxm.sparkStreaming.demo.WorldCount spark-test-1.0-spark1.3.0.jar
+
+通过netcat发送数据
+nc -lk 9999
